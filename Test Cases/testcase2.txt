@@ -1,0 +1,13 @@
+//----CORRECT CODE----
+//Variable Declaration
+char sign;
+//Variable assignment
+sign = '-';
+//Variable Declaration with initialization
+string s = "Hello World!!";
+//empty statement
+;;;;
+//Variable Declaration with initialization
+float x = 5.6; float y = x + 10.1;
+//addition and subtraction operations
+float z = y - x;

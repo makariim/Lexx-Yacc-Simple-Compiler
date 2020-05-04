@@ -1,0 +1,28 @@
+//----SEMANTIC ERRORS----
+//note that even though semantic errors are present, line is ignored and commands resume
+int justOneTime = 5;
+//multiple declaration error
+int justOneTime;
+//unefined variable
+float x = iAmNewHere;
+float iHaveNoValue;
+//uninitialized variable
+float MeToo = iHaveNoValue;   
+// assigning int var to float var
+float x = justOneTime; 
+char iDont = 'a';
+char MakeSense = 'b';
+//adding 2 char (unsupported types)
+char iDontMakeSense = iDont + MakeSense;
+//--------------------------------------------
+//----LEXICAL and SYNTAX ERRORS----
+//note that an error token was added to grammer to support running test file with multiple syntax errors.
+//variable starting with number
+int 8sytanxError5;
+//= with no value to assign
+int syntaxError1=;
+// operaation with one var
+int a; int b =3;
+a=b+;
+// ' is unmatched, an unknown char, exits parsing 
+char sytanxError3='a;

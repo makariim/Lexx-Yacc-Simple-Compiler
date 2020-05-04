@@ -1,0 +1,24 @@
+//----CORRECT CODE----
+//Variable Declaration with initialization
+float f=3.2;
+//Variable Declaration
+int a;
+//Variable assignment
+a=5;
+//another assignment
+a=8;
+//Declaring and initializaing char
+char aChar='c';
+//Declaring and initializaing string
+string aString="I am a String";
+//assigning a variable to another
+int b=8;
+a=b;
+//addition and subtraction operations
+int c=8;
+a=b+c;
+a=b-c;
+//empty statement
+;;;;
+// just a variable
+a;
